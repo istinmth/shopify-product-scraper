@@ -25,7 +25,7 @@ cd shopify-product-scraper
 2. Install the required dependencies:
 
 ```bash
-npm install axios cheerio mkdirp
+npm install
 ```
 
 ## Usage
