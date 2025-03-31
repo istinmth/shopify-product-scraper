@@ -1,9 +1,25 @@
 {
+  "name": "shopify-product-scraper",
+  "version": "1.0.0",
+  "description": "A Node.js based web scraper designed specifically for Shopify e-commerce stores",
+  "main": "shopify-scraper.js",
+  "scripts": {
+    "start": "node shopify-scraper.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
   "dependencies": {
     "axios": "^1.8.3",
     "cheerio": "^1.0.0",
     "fs": "^0.0.1-security",
     "mkdirp": "^3.0.1",
     "path": "^0.12.7"
-  }
+  },
+  "keywords": [
+    "shopify",
+    "scraper",
+    "web-scraping",
+    "e-commerce"
+  ],
+  "author": "Németh István Ákos",
+  "license": "MIT"
 }
